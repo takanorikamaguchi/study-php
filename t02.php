@@ -21,3 +21,20 @@ $x === 0 ? -1 : $flag = $x;
 echo $flag;
 
 //echo true ? 0 : (false ? 'いいよ': 'NG');
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PHP</title>
+</head>
+<body>
+<section>
+<?php for ($i = 0; $i < 5 ; $i++) { ?>
+<p>これからが本題だ</p>
+<?php } ?>
+</section>
+</body>
+</html>
+
