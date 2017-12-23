@@ -21,10 +21,20 @@ $x === 0 ? -1 : $flag = $x;
 echo $flag;
 
 //echo true ? 0 : (false ? 'いいよ': 'NG');
+?>
 
-$str = ['僕が読んだ本は実装したらJavaScriptがこわれた','あの日見た本がまだ戻らない'];
-$src = ['本','ら'];
-$rep = ['誓書','こだわり'];
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PHP</title>
+</head>
+<body>
+<section>
+<?php for ($i = 0; $i < 5 ; $i++) { ?>
+<p>これからが本題だ</p>
+<?php } ?>
+</section>
+</body>
+</html>
 
-print_r(str_replace($src,$rep,$str,$cnt))."<br>";
-echo "{$cnt}個";
