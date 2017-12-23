@@ -21,3 +21,10 @@ $x === 0 ? -1 : $flag = $x;
 echo $flag;
 
 //echo true ? 0 : (false ? 'いいよ': 'NG');
+
+$str = ['僕が読んだ本は実装したらJavaScriptがこわれた','あの日見た本がまだ戻らない'];
+$src = ['本','ら'];
+$rep = ['誓書','こだわり'];
+
+print_r(str_replace($src,$rep,$str,$cnt))."<br>";
+echo "{$cnt}個";
